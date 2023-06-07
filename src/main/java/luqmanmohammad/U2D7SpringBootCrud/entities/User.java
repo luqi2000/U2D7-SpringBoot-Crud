@@ -20,5 +20,13 @@ public class User {
 	private String email;
 	private Boolean active = true;
 	private String password;
+	
+	public User(String nome, String username, String email, String password) {
+		super();
+		this.nome = nome;
+		this.username = username;
+		this.email = email;
+		this.password = password;
+	}
 
 }
